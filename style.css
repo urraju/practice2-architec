@@ -257,7 +257,7 @@ nav h1 {
     .page-details{
         text-align: center;
         margin-top: 170px;
-        height: 100vh;
+        
     }
 
     .page-details-content{
@@ -301,6 +301,45 @@ nav h1 {
         font-weight: 600;
     }
 
+
+    /* Icon sponsore section  */
+
+    .icon-section{
+       text-align: center;
+       margin-top: 160px;
+    }
+    .icon-section h1{
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+    .icon-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 100px;
+    }
+    .icon img{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+        height: 20vh;
+        margin-top: 180px;
+        
+    }
+    .footer-section strong{
+        font-size: 20px;
+        color: #ffbabc;
+        background: #000d13fe;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        padding: 50px;
+
+    }
+
+
 /* MOBILE VERSION RESPONSIVE  */
 
 
@@ -335,7 +374,7 @@ nav h1 {
     .banner-section{
         width: 100%;
         margin-top: 15px;
-        padding: 20px;
+        padding: 25px;
     }
     .banner-img img{
         width: 100%;
@@ -343,7 +382,51 @@ nav h1 {
     .banner-text h1{
         font-size: 40px;
     }
+
+    /* future-section 1  */
+
+    .future-section-1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        padding: 30px;
+    }
+    .future-img-1 img{
+        width: 100%;
+    }
+    .future-img-1{
+        margin-right: 0px;
+        margin-top: 50px;
+    }
+    main{
+        width: 100%;
+        margin: 0 auto;
+    }
      
+    /* .future-section-2 start  */
+
+    .future-section-2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .future-img-2 img{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .future-card{
+        width:  300px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .future-text-2{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .future-text-2 h1
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
